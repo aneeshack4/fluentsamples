@@ -1,0 +1,455 @@
+{
+  "Global": {
+    "Color": {
+      "Grey": {
+        "16": {
+          "value": "#292929",
+          "original": {
+            "value": "#292929"
+          },
+          "name": "GlobalColorGrey16",
+          "attributes": {
+            "category": "Global",
+            "type": "Color",
+            "item": "Grey",
+            "subitem": "16"
+          },
+          "path": [
+            "Global",
+            "Color",
+            "Grey",
+            "16"
+          ]
+        },
+        "84": {
+          "value": "#D6D6D6",
+          "original": {
+            "value": "#D6D6D6"
+          },
+          "name": "GlobalColorGrey84",
+          "attributes": {
+            "category": "Global",
+            "type": "Color",
+            "item": "Grey",
+            "subitem": "84"
+          },
+          "path": [
+            "Global",
+            "Color",
+            "Grey",
+            "84"
+          ]
+        }
+      },
+      "White": {
+        "0": {
+          "value": "#FFFFFF",
+          "original": {
+            "value": "#FFFFFF"
+          },
+          "name": "GlobalColorWhite0",
+          "attributes": {
+            "category": "Global",
+            "type": "Color",
+            "item": "White",
+            "subitem": "0"
+          },
+          "path": [
+            "Global",
+            "Color",
+            "White",
+            "0"
+          ]
+        }
+      }
+    },
+    "Corner": {
+      "Radius": {
+        "Medium": {
+          "value": 4,
+          "original": {
+            "value": 4
+          },
+          "name": "GlobalCornerRadiusMedium",
+          "attributes": {
+            "category": "Global",
+            "type": "Corner",
+            "item": "Radius",
+            "subitem": "Medium"
+          },
+          "path": [
+            "Global",
+            "Corner",
+            "Radius",
+            "Medium"
+          ]
+        }
+      }
+    },
+    "None": {}
+  },
+  "Set": {
+    "Background": {
+      "Fill": {
+        "Color": {
+          "Rest": {
+            "value": "#292929",
+            "resolvedAliasPath": [
+              "Global",
+              "Color",
+              "Grey",
+              "16"
+            ],
+            "original": {
+              "value": "#292929",
+              "resolvedAliasPath": [
+                "Global",
+                "Color",
+                "Grey",
+                "16"
+              ]
+            },
+            "name": "SetBackgroundFillColorRest",
+            "attributes": {
+              "category": "Set",
+              "type": "Background",
+              "item": "Fill",
+              "subitem": "Color",
+              "state": "Rest"
+            },
+            "path": [
+              "Set",
+              "Background",
+              "Fill",
+              "Color",
+              "Rest"
+            ]
+          }
+        }
+      }
+    },
+    "Surface": {
+      "Corner": {
+        "Radius": {
+          "value": 4,
+          "resolvedAliasPath": [
+            "Global",
+            "Corner",
+            "Radius",
+            "Medium"
+          ],
+          "original": {
+            "value": 4,
+            "resolvedAliasPath": [
+              "Global",
+              "Corner",
+              "Radius",
+              "Medium"
+            ]
+          },
+          "name": "SetSurfaceCornerRadius",
+          "attributes": {
+            "category": "Set",
+            "type": "Surface",
+            "item": "Corner",
+            "subitem": "Radius"
+          },
+          "path": [
+            "Set",
+            "Surface",
+            "Corner",
+            "Radius"
+          ]
+        }
+      }
+    },
+    "Foreground": {
+      "Fill": {
+        "Color": {
+          "Rest": {
+            "value": "#FFFFFF",
+            "resolvedAliasPath": [
+              "Global",
+              "Color",
+              "White",
+              "0"
+            ],
+            "original": {
+              "value": "#FFFFFF",
+              "resolvedAliasPath": [
+                "Global",
+                "Color",
+                "White",
+                "0"
+              ]
+            },
+            "name": "SetForegroundFillColorRest",
+            "attributes": {
+              "category": "Set",
+              "type": "Foreground",
+              "item": "Fill",
+              "subitem": "Color",
+              "state": "Rest"
+            },
+            "path": [
+              "Set",
+              "Foreground",
+              "Fill",
+              "Color",
+              "Rest"
+            ]
+          },
+          "DescriptionRest": {
+            "value": "#D6D6D6",
+            "resolvedAliasPath": [
+              "Global",
+              "Color",
+              "Grey",
+              "84"
+            ],
+            "original": {
+              "value": "#D6D6D6",
+              "resolvedAliasPath": [
+                "Global",
+                "Color",
+                "Grey",
+                "84"
+              ]
+            },
+            "name": "SetForegroundFillColorDescriptionRest",
+            "attributes": {
+              "category": "Set",
+              "type": "Foreground",
+              "item": "Fill",
+              "subitem": "Color",
+              "state": "DescriptionRest"
+            },
+            "path": [
+              "Set",
+              "Foreground",
+              "Fill",
+              "Color",
+              "DescriptionRest"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Card": {
+    "Base": {
+      "Corner": {
+        "Radius": {
+          "value": 4,
+          "resolvedAliasPath": [
+            "Surface",
+            "Corner",
+            "Radius"
+          ],
+          "original": {
+            "value": 4,
+            "resolvedAliasPath": [
+              "Surface",
+              "Corner",
+              "Radius"
+            ]
+          },
+          "name": "CardBaseCornerRadius",
+          "attributes": {
+            "category": "Card",
+            "type": "Base",
+            "item": "Corner",
+            "subitem": "Radius"
+          },
+          "path": [
+            "Card",
+            "Base",
+            "Corner",
+            "Radius"
+          ]
+        }
+      },
+      "Fill": {
+        "Color": {
+          "Rest": {
+            "value": "#292929",
+            "resolvedAliasPath": [
+              "Background",
+              "Fill",
+              "Color",
+              "Rest"
+            ],
+            "original": {
+              "value": "#292929",
+              "resolvedAliasPath": [
+                "Background",
+                "Fill",
+                "Color",
+                "Rest"
+              ]
+            },
+            "name": "CardBaseFillColorRest",
+            "attributes": {
+              "category": "Card",
+              "type": "Base",
+              "item": "Fill",
+              "subitem": "Color",
+              "state": "Rest"
+            },
+            "path": [
+              "Card",
+              "Base",
+              "Fill",
+              "Color",
+              "Rest"
+            ]
+          }
+        }
+      }
+    },
+    "Text": {
+      "Fill": {
+        "Color": {
+          "Rest": {
+            "value": "#FFFFFF",
+            "resolvedAliasPath": [
+              "Foreground",
+              "Fill",
+              "Color",
+              "Rest"
+            ],
+            "original": {
+              "value": "#FFFFFF",
+              "resolvedAliasPath": [
+                "Foreground",
+                "Fill",
+                "Color",
+                "Rest"
+              ]
+            },
+            "name": "CardTextFillColorRest",
+            "attributes": {
+              "category": "Card",
+              "type": "Text",
+              "item": "Fill",
+              "subitem": "Color",
+              "state": "Rest"
+            },
+            "path": [
+              "Card",
+              "Text",
+              "Fill",
+              "Color",
+              "Rest"
+            ]
+          },
+          "DescriptionRest": {
+            "value": "#D6D6D6",
+            "resolvedAliasPath": [
+              "Foreground",
+              "Fill",
+              "Color",
+              "DescriptionRest"
+            ],
+            "original": {
+              "value": "#D6D6D6",
+              "resolvedAliasPath": [
+                "Foreground",
+                "Fill",
+                "Color",
+                "DescriptionRest"
+              ]
+            },
+            "name": "CardTextFillColorDescriptionRest",
+            "attributes": {
+              "category": "Card",
+              "type": "Text",
+              "item": "Fill",
+              "subitem": "Color",
+              "state": "DescriptionRest"
+            },
+            "path": [
+              "Card",
+              "Text",
+              "Fill",
+              "Color",
+              "DescriptionRest"
+            ]
+          }
+        }
+      }
+    },
+    "Rectangle": {
+      "Fill": {
+        "Color": {
+          "Rest": {
+            "value": "#FFFFFF",
+            "resolvedAliasPath": [
+              "Foreground",
+              "Fill",
+              "Color",
+              "Rest"
+            ],
+            "original": {
+              "value": "#FFFFFF",
+              "resolvedAliasPath": [
+                "Foreground",
+                "Fill",
+                "Color",
+                "Rest"
+              ]
+            },
+            "name": "CardRectangleFillColorRest",
+            "attributes": {
+              "category": "Card",
+              "type": "Rectangle",
+              "item": "Fill",
+              "subitem": "Color",
+              "state": "Rest"
+            },
+            "path": [
+              "Card",
+              "Rectangle",
+              "Fill",
+              "Color",
+              "Rest"
+            ]
+          },
+          "DescriptionRest": {
+            "value": "#D6D6D6",
+            "resolvedAliasPath": [
+              "Foreground",
+              "Fill",
+              "Color",
+              "DescriptionRest"
+            ],
+            "original": {
+              "value": "#D6D6D6",
+              "resolvedAliasPath": [
+                "Foreground",
+                "Fill",
+                "Color",
+                "DescriptionRest"
+              ]
+            },
+            "name": "CardRectangleFillColorDescriptionRest",
+            "attributes": {
+              "category": "Card",
+              "type": "Rectangle",
+              "item": "Fill",
+              "subitem": "Color",
+              "state": "DescriptionRest"
+            },
+            "path": [
+              "Card",
+              "Rectangle",
+              "Fill",
+              "Color",
+              "DescriptionRest"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

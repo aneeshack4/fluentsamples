@@ -1,0 +1,21 @@
+/**
+ * Do not edit directly
+ * Generated on Fri, 20 Nov 2020 22:07:29 GMT
+ */
+
+:root {
+  --global-color-grey-16: #292929;
+  --global-color-grey-84: #d6d6d6;
+  --global-color-white-0: #ffffff;
+  --global-corner-radius-medium: 4px;
+  --background-fill-color-rest: var(--global-color-grey-16);
+  --surface-corner-radius: var(--global-corner-radius-medium);
+  --foreground-fill-color-rest: var(--global-color-white-0);
+  --foreground-fill-color-descriptionrest: var(--global-color-grey-84);
+  --card-base-corner-radius: var(--surface-corner-radius);
+  --card-base-fill-color-rest: var(--background-fill-color-rest);
+  --card-text-fill-color-rest: var(--foreground-fill-color-rest);
+  --card-text-fill-color-descriptionrest: var(--foreground-fill-color-descriptionrest);
+  --card-rectangle-fill-color-rest: var(--foreground-fill-color-rest);
+  --card-rectangle-fill-color-descriptionrest: var(--foreground-fill-color-descriptionrest);
+}

@@ -1,0 +1,10 @@
+{
+	"card": {
+		"cornerRadius": 4,
+		"fillColorRest": "#292929",
+		"rectangleFillColorRest": "#FFFFFF",
+		"rectangleFillColorDescriptionRest": "#D6D6D6",
+		"textFillColorRest": "#FFFFFF",
+		"textFillColorDescriptionRest": "#D6D6D6"
+	}
+}
