@@ -65,28 +65,28 @@
     },
     "Corner": {
       "Radius": {
-        "Medium": {
+        "Soft": {
           "value": 4,
           "original": {
             "value": 4
           },
-          "name": "GlobalCornerRadiusMedium",
+          "name": "GlobalCornerRadiusSoft",
           "attributes": {
             "category": "Global",
             "type": "Corner",
             "item": "Radius",
-            "subitem": "Medium"
+            "subitem": "Soft"
           },
           "path": [
             "Global",
             "Corner",
             "Radius",
-            "Medium"
+            "Soft"
           ]
         }
       }
     },
-    "None": {}
+    "Stroke": {}
   },
   "Set": {
     "Background": {
@@ -131,35 +131,39 @@
     "Surface": {
       "Corner": {
         "Radius": {
-          "value": 4,
-          "resolvedAliasPath": [
-            "Global",
-            "Corner",
-            "Radius",
-            "Medium"
-          ],
-          "original": {
+          "Corner": {
             "value": 4,
             "resolvedAliasPath": [
               "Global",
               "Corner",
               "Radius",
-              "Medium"
+              "Soft"
+            ],
+            "original": {
+              "value": 4,
+              "resolvedAliasPath": [
+                "Global",
+                "Corner",
+                "Radius",
+                "Soft"
+              ]
+            },
+            "name": "SetSurfaceCornerRadiusCorner",
+            "attributes": {
+              "category": "Set",
+              "type": "Surface",
+              "item": "Corner",
+              "subitem": "Radius",
+              "state": "Corner"
+            },
+            "path": [
+              "Set",
+              "Surface",
+              "Corner",
+              "Radius",
+              "Corner"
             ]
-          },
-          "name": "SetSurfaceCornerRadius",
-          "attributes": {
-            "category": "Set",
-            "type": "Surface",
-            "item": "Corner",
-            "subitem": "Radius"
-          },
-          "path": [
-            "Set",
-            "Surface",
-            "Corner",
-            "Radius"
-          ]
+          }
         }
       }
     },
@@ -240,33 +244,39 @@
     "Base": {
       "Corner": {
         "Radius": {
-          "value": 4,
-          "resolvedAliasPath": [
-            "Surface",
-            "Corner",
-            "Radius"
-          ],
-          "original": {
+          "Corner": {
             "value": 4,
             "resolvedAliasPath": [
               "Surface",
               "Corner",
-              "Radius"
+              "Radius",
+              "Corner"
+            ],
+            "original": {
+              "value": 4,
+              "resolvedAliasPath": [
+                "Surface",
+                "Corner",
+                "Radius",
+                "Corner"
+              ]
+            },
+            "name": "CardBaseCornerRadiusCorner",
+            "attributes": {
+              "category": "Card",
+              "type": "Base",
+              "item": "Corner",
+              "subitem": "Radius",
+              "state": "Corner"
+            },
+            "path": [
+              "Card",
+              "Base",
+              "Corner",
+              "Radius",
+              "Corner"
             ]
-          },
-          "name": "CardBaseCornerRadius",
-          "attributes": {
-            "category": "Card",
-            "type": "Base",
-            "item": "Corner",
-            "subitem": "Radius"
-          },
-          "path": [
-            "Card",
-            "Base",
-            "Corner",
-            "Radius"
-          ]
+          }
         }
       },
       "Fill": {
@@ -307,7 +317,7 @@
         }
       }
     },
-    "Text": {
+    "App Name": {
       "Fill": {
         "Color": {
           "Rest": {
@@ -327,17 +337,17 @@
                 "Rest"
               ]
             },
-            "name": "CardTextFillColorRest",
+            "name": "CardAppNameFillColorRest",
             "attributes": {
               "category": "Card",
-              "type": "Text",
+              "type": "App Name",
               "item": "Fill",
               "subitem": "Color",
               "state": "Rest"
             },
             "path": [
               "Card",
-              "Text",
+              "App Name",
               "Fill",
               "Color",
               "Rest"
@@ -360,17 +370,17 @@
                 "DescriptionRest"
               ]
             },
-            "name": "CardTextFillColorDescriptionRest",
+            "name": "CardAppNameFillColorDescriptionRest",
             "attributes": {
               "category": "Card",
-              "type": "Text",
+              "type": "App Name",
               "item": "Fill",
               "subitem": "Color",
               "state": "DescriptionRest"
             },
             "path": [
               "Card",
-              "Text",
+              "App Name",
               "Fill",
               "Color",
               "DescriptionRest"
@@ -379,7 +389,7 @@
         }
       }
     },
-    "Rectangle": {
+    "App Description": {
       "Fill": {
         "Color": {
           "Rest": {
@@ -399,17 +409,17 @@
                 "Rest"
               ]
             },
-            "name": "CardRectangleFillColorRest",
+            "name": "CardAppDescriptionFillColorRest",
             "attributes": {
               "category": "Card",
-              "type": "Rectangle",
+              "type": "App Description",
               "item": "Fill",
               "subitem": "Color",
               "state": "Rest"
             },
             "path": [
               "Card",
-              "Rectangle",
+              "App Description",
               "Fill",
               "Color",
               "Rest"
@@ -432,17 +442,17 @@
                 "DescriptionRest"
               ]
             },
-            "name": "CardRectangleFillColorDescriptionRest",
+            "name": "CardAppDescriptionFillColorDescriptionRest",
             "attributes": {
               "category": "Card",
-              "type": "Rectangle",
+              "type": "App Description",
               "item": "Fill",
               "subitem": "Color",
               "state": "DescriptionRest"
             },
             "path": [
               "Card",
-              "Rectangle",
+              "App Description",
               "Fill",
               "Color",
               "DescriptionRest"

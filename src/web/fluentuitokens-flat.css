@@ -1,21 +1,21 @@
 /**
  * Do not edit directly
- * Generated on Fri, 20 Nov 2020 22:07:29 GMT
+ * Generated on Wed, 09 Dec 2020 22:02:21 GMT
  */
 
 :root {
   --global-color-grey-16: #292929;
   --global-color-grey-84: #d6d6d6;
   --global-color-white-0: #ffffff;
-  --global-corner-radius-medium: 4px;
+  --global-corner-radius-soft: 4px;
   --background-fill-color-rest: #292929;
-  --surface-corner-radius: 4;
+  --surface-corner-radius-corner: 4;
   --foreground-fill-color-rest: #FFFFFF;
   --foreground-fill-color-descriptionrest: #D6D6D6;
-  --card-base-corner-radius: 4;
+  --card-base-corner-radius-corner: 4;
   --card-base-fill-color-rest: #292929;
-  --card-text-fill-color-rest: #FFFFFF;
-  --card-text-fill-color-descriptionrest: #D6D6D6;
-  --card-rectangle-fill-color-rest: #FFFFFF;
-  --card-rectangle-fill-color-descriptionrest: #D6D6D6;
+  --card-app name-fill-color-rest: #FFFFFF;
+  --card-app name-fill-color-descriptionrest: #D6D6D6;
+  --card-app description-fill-color-rest: #FFFFFF;
+  --card-app description-fill-color-descriptionrest: #D6D6D6;
 }

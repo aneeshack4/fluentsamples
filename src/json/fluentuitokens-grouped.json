@@ -1,10 +1,10 @@
 {
 	"card": {
-		"cornerRadius": 4,
-		"fillColorRest": "#292929",
-		"rectangleFillColorRest": "#FFFFFF",
-		"rectangleFillColorDescriptionRest": "#D6D6D6",
-		"textFillColorRest": "#FFFFFF",
-		"textFillColorDescriptionRest": "#D6D6D6"
+		"appDescriptionFillColorRest": "#FFFFFF",
+		"appDescriptionFillColorDescriptionRest": "#D6D6D6",
+		"appNameFillColorRest": "#FFFFFF",
+		"appNameFillColorDescriptionRest": "#D6D6D6",
+		"cornerRadiusCorner": 4,
+		"fillColorRest": "#292929"
 	}
 }

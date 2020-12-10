@@ -3,7 +3,7 @@
 // FluentUIColorTokens.swift
 //
 // Do not edit directly
-// Generated on Fri, 20 Nov 2020 22:07:29 GMT
+// Generated on Wed, 09 Dec 2020 22:02:21 GMT
 //
 
 
@@ -11,11 +11,11 @@ import UIKit
 
 public class FluentUIColorTokens {
     public static let backgroundFillColorRest = globalColorGrey16
+    public static let cardAppDescriptionFillColorDescriptionRest = foregroundFillColorDescriptionRest
+    public static let cardAppDescriptionFillColorRest = foregroundFillColorRest
+    public static let cardAppNameFillColorDescriptionRest = foregroundFillColorDescriptionRest
+    public static let cardAppNameFillColorRest = foregroundFillColorRest
     public static let cardBaseFillColorRest = backgroundFillColorRest
-    public static let cardRectangleFillColorDescriptionRest = foregroundFillColorDescriptionRest
-    public static let cardRectangleFillColorRest = foregroundFillColorRest
-    public static let cardTextFillColorDescriptionRest = foregroundFillColorDescriptionRest
-    public static let cardTextFillColorRest = foregroundFillColorRest
     public static let foregroundFillColorDescriptionRest = globalColorGrey84
     public static let foregroundFillColorRest = globalColorWhite0
     public static let globalColorGrey16 = UIColor(red: 0.161, green: 0.161, blue: 0.161, alpha:1)
